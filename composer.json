@@ -1,0 +1,28 @@
+{
+    "name": "shuaijinchao/apisix-php-plugin-runner",
+    "description": "Apache APISIX PHP plugin runner",
+    "type": "project",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Jinchao Shuai",
+            "email": "shuaijinchao@apache.org"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "APISIX\\": "apisix/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "APISIX\\Tests\\": "tests/"
+        }
+    }
+}
